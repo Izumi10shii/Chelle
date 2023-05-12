@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Happy Birthday, My Love ♥ </title>
-    <link rel="stylesheet" type="text/css" href="style.css">    
+    <title>Happy Birthday, My Love ♥</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./audio.css" />
+    <style>
+        body {
+  background-image: url('Images/bgi.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+    </style>
 </head>
 <body>
     <header>
@@ -14,16 +23,15 @@
     <main>
         <h2>Happy Birthday Chelle, My Love, My Everything, My Forever, My World ♥</h2>
         <div id="hidden-message" class="hidden">
-			
-            <p>Hello love! Happy 18th Birthday ♥ also Happy 4th Monthsary ♥. Time flies so fast, it's like we've just met yesterday. Same feelings, same love, same dream, which is to be with each other. I love being with you, I love everything about you, I love your bright smile, I love you smell that follows me to my home, I love touching your hair, I love your soft lips, I love your gentle hands, I love your eyes when it looks at me, I love how you tie your hair, I love how you walk, I love how you react when you hug me, I love those lovely smiles you give me when we're together. I love you so much </p>
+            <div class="close-button">&times;</div>
+            <p>Hello love! Happy 18th Birthday ♥ also Happy 4th Monthsary ♥. Time flies so fast, it's like we've just met yesterday. Same feelings, same love, same dream, which is to be with each other. I love being with you, I love everything about you, I love your bright smile, I love your smell that follows me to my home, I love touching your hair, I love your soft lips, I love your gentle hands, I love your eyes when it looks at me, I love how you tie your hair, I love how you walk, I love how you react when you hug me, I love those lovely smiles you give me when we're together. I love you so much</p>
             <p1>We will face many challenges, but I'll assure you that I will fight and love you until the end</p1>
             <p2>愛してます</p2>
             <p3>Your Love, David</p3>
         </div>
         <button id="button">Hi lovee!! Click me!</button>
-        
     </main>
-    
+
     <body1>
         <div class="image-container">
             <img src="Images/swim.png" alt="Pic1">
@@ -37,9 +45,19 @@
     </body1>
 
     <script src="script.js"></script>
-	
-	<main>
-         <h3>Please listen to this song I wrote for you</h3>
-	</main>
+
+    <main>
+        <h3>Please listen to this song I wrote for you</h3>
+        <div class="audio-container">
+            <audio controls id="audio-player">
+                <source src="Song/TheMissingPiece.mp3" type="audio/mpeg">
+                <source src="musicfile.ogg" type="audio/ogg">
+                Your browser does not support the audio element.
+            </audio>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
