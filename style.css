@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'ComicSansMS3', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
@@ -26,15 +26,23 @@ main {
 }
 
 h2 {
+	font-family: 'ComicSansMS3', sans-serif;
     font-size: 36px;
     color: #333;
     margin-top: 0;
 }
 
 p {
+	font-family: 'ComicSansMS3', sans-serif;
     font-size: 18px;
     color: white;
     margin-bottom: 20px;
+}
+
+/*font*/
+@font-face {
+  font-family: 'ComicSansMS3';
+  src: url('Fonts/ComicSansMS3.ttf') format('truetype');
 }
 
 /* Hidden message */
@@ -50,6 +58,7 @@ p {
     border-radius: 10px;
     animation-name: fadeIn;
     animation-duration: 2s;
+	font-family: 'ComicSansMS3', sans-serif;
 }
 
 @keyframes fadeIn {
@@ -70,6 +79,7 @@ p {
     cursor: pointer;
     border: none;
     font-size: 18px;
+	font-family: 'ComicSansMS3', sans-serif;
 }
 
 #button:hover {
@@ -95,7 +105,8 @@ p {
 }
 
 img {
-    width: 500px;
+    width: 200px; /* Set a fixed width */
+    height: auto;
     margin: 10px;
     border: 1px solid black;
     border-radius: 5px;
@@ -113,11 +124,10 @@ img {
 
 .image-container img {
     display: inline-block;
-    width: 200px;
-    /* adjust this to the desired size */
-    height: auto;
     margin-right: 10px;
     /* adjust this to the desired spacing between images */
+}
+
 }
 
 /* Audio */
@@ -137,3 +147,12 @@ h3 {
 .audio-container audio {
     display: block;
     margin
+	
+p4 {
+  font-family: 'ComicSansMS3', sans-serif;
+  font-size: 16px;
+  color: #000000;
+
+  margin-bottom: 10px;
+}
+
