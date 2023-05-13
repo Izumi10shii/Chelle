@@ -5,7 +5,6 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./audio.css" />
     <style>
         body {
   background-image: url('Images/bgi.png');
@@ -13,6 +12,17 @@
   background-attachment: fixed;  
   background-size: cover;
 }
+.video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 250px; /* Adjust the height as per your requirements */
+        }
+
+        .video-container video {
+            max-width: 100%;
+            max-height: 100%;
+        }
     </style>
 </head>
 <body>
@@ -24,12 +34,12 @@
         <h2>Happy Birthday Chelle, My Love, My Everything, My Forever, My World ♥</h2>
         <div id="hidden-message" class="hidden">
             <div class="close-button">&times;</div>
-            <p>Hello love! Happy 18th Birthday ♥ also Happy 4th Monthsary ♥. Time flies so fast, it's like we've just met yesterday. Same feelings, same love, same dream, which is to be with each other. I love being with you, I love everything about you, I love your bright smile, I love your smell that follows me to my home, I love touching your hair, I love your soft lips, I love your gentle hands, I love your eyes when it looks at me, I love how you tie your hair, I love how you walk, I love how you react when you hug me, I love those lovely smiles you give me when we're together. I love you so much</p>
-            <p1>We will face many challenges, but I'll assure you that I will fight and love you until the end</p1>
-            <p2>愛してます</p2>
-            <p3>Your Love, David</p3>
+            <p>Hello love! Happy 18th Birthday ♥ also Happy 4th Monthsary ♥. Time flies so fast, it's like we've just met yesterday. Same feelings, same love, same dream, which is to be with each other. I love being with you, I love everything about you, I love your bright smile, I love your smell that follows me to my home, I love touching your hair, I love your soft lips, I love your gentle hands, I love your eyes when it looks at me, I love how you tie your hair, I love how you walk, I love how you react when you hug me, I love those lovely smiles you give me when we're together. I love you so much. We will face many challenges, but I'll assure you that I will fight and love you until the end</p>
+			<p1> Happy Birthday! It's your 18th birthday and you're finally legal of age now, continue to strive in life (with me of course) I support you in every good choice you make and I'll be there for you everytime whether it is a good or a bad time. You may have experienced lots of bad things but I know that helped you build what you are right now. You've learned a lot from life so I know for a fact that you will be the best version of yourself. Happy Birthday love! I love you so much </p1>
         </div>
         <button id="button">Hi lovee!! Click me!</button>
+
+
     </main>
 
     <body1>
@@ -55,7 +65,7 @@
     <script src="script.js"></script>
 
     <main>
-        <h3>Please listen to this song I wrote for you, It is titled "The Missing Piece" and I dedicate it wholeheartedly to you</h3>
+        <h3>Please listen to this song I wrote for you, It is titled "The Missing Piece"</h3>
         <div class="audio-container">
             <audio controls id="audio-player">
                 <source src="Song/TheMissingPiece.mp3" type="audio/mpeg">
@@ -68,5 +78,19 @@
         </div>
 		<p4> I wrote this song almost 2 months ago, then I created the instrumentals and recorded it the month before this day, I hope you feel happy about my gift and I love you so much. Every words I wrote here explains how I feel for you </p4>
     </main>
+	
+	<main>
+	 <div class="video-container">
+            <video controls>
+                <source src="Video/Memory.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+		
+		<div class="center-text">
+		<p3> This is a video of our memories from the 4 month relationship that we have, and we'll continue to live until the end </p3>
+		</div>
+	</main>
+
 </body>
 </html>
